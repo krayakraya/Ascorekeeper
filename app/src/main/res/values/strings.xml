@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ascorekeeper</string>
+    <string name="kviz1">Bamboo consists of 85 to 95 percent of their diet, according to the National Zoo. Red pandas eat bamboo shoots and bamboo leaf tips, stripping them off the stems with their mouths.</string>
+    <string name="life1">"You are simply amazing. \n
+    You can do whatever you plan, just believe in yourself! \n
+    Maybe you didn't make your app, why wouldn't you try doing it until 12th of march? \n
+    Why stopping now, when you're 3 months in this program? \n
+    Is your role model Dan Bilzerian, or maybe Justin Bieber? \n
+    You're greater than them!Don't stop trying, one day you'll be able to do all of your dream stuff!\n
+   " </string>
+    <string name="life2">"I AM GOING TO MAKE YOUR PROUD!
+        -note to yourself\n\n
+        Greatness is earned, not awarded!\n\n
+        Yesterday you said tommorow, go do it!\n\n
+        What are you looking out for is not out there! It's in you!\n
+   "</string>
+<string name="about1">"Red pandas are small mammals with long, fluffy tails and red and white markings. Though they share a name with the more famous giant panda, they are not closely related. In fact, the name 'panda' was first applied to these animals, and not to the larger black-and-white bear.\n
+    Red pandas are similar in size to the common house cat. They are 20 to 26 inches (51 to 66 centimeters) long from head to rump, and their tail adds another 10 to 20 inches (25.4 to 51 cm). They weigh from 10 to 20 lbs. (4.5 to 9 kilograms). \n
+    One important factor to their habitat is bamboo. The forest must have a bamboo understory for it to be viable for the red panda. Bamboo consists of 85 to 95 percent of their diet, according to the National Zoo. Red pandas eat bamboo shoots and bamboo leaf tips, stripping them off the stems with their mouths. They may also forage for roots, grasses and fallen fruits. Sometimes, they will eat eggs, insects, birds and small mammals as well, but they mostly stick to bamboo.\n
+    These creatures spend most of their time in trees, eating and sleeping without the need to step foot on soil. They also like to lie on branches to sunbathe as they sleep. It can get a bit chilly at night where the red pandas live, so to keep warm, they wrap themselves in their fluffy tails."</string>
+    <string name="pitanje1">"What do red pandas eat the most?"</string>
+    <string name="pitanje2">"What do red pandas have in common with skunks?"</string>
+    <string name="uvod1">"Tap on the big logo above to start the quiz.\n\n It's a very long quiz so be prepared!"</string>
+    <string name="tekstfinal">"\n\n In this loooong quiz you've learned a lot about red pandas. If you want to see some more information about red panda go to the menu and tap the about logo!"</string>
+
+
+
+</resources>

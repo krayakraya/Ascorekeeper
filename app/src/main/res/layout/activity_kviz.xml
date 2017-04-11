@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:fillViewport="false"
+    android:background="@drawable/pozadina0">
+
+
+    <ImageView
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:layout_centerHorizontal="true"
+    android:layout_width="200dp"
+    android:layout_height="170dp"
+    android:src="@drawable/pandalogo"
+    android:scaleType="fitXY"
+    android:id="@+id/slika1"/>
+
+        <TextView
+            android:textStyle="italic"
+            android:layout_below="@id/slika1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pitanje1"
+            android:textSize="30sp"
+            android:id="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:textColor="#696969"
+                android:textStyle="italic"
+                android:textSize="27sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrots"
+                android:id="@+id/radio1"
+                android:layout_gravity="center_horizontal"
+                android:onClick="porukacarrots"/>
+
+            <RadioButton
+                android:textColor="#696969"
+                android:textStyle="italic"
+                android:textSize="27sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pork"
+                android:id="@+id/radio2"
+                android:layout_alignTop="@+id/radioGroup"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:onClick="porukakrivo"/>
+
+            <RadioButton
+                android:textColor="#696969"
+                android:textStyle="italic"
+                android:onClick="tocanOdgovor1"
+                android:textSize="27sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bamboo"
+                android:id="@+id/radio3"
+                android:layout_gravity="center_horizontal"/>
+
+            <RadioButton
+                android:textColor="#696969"
+                android:textStyle="italic"
+                android:onClick="porukabananas"
+                android:textSize="27sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bananas"
+                android:id="@+id/radio4"
+                android:layout_gravity="center_horizontal"/>
+        </RadioGroup>
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:background="@drawable/next"
+            android:layout_below="@id/radioGroup"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/gumbkviz2"
+            />
+
+
+
+
+</RelativeLayout>

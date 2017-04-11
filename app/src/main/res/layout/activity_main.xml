@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/pozadina0"
+   >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <Button
+            android:id="@+id/gumb1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/brojaclogo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"/>
+        <Button
+            android:background="@drawable/kvizlogo"
+            android:id="@+id/gumb1a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:id="@+id/linear2"
+        android:layout_below="@id/linear1">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/pandalogo"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@id/linear3"
+        android:layout_below="@id/linear2">
+
+
+    <Button
+        android:layout_weight="4"
+        android:background="@drawable/lifelogo"
+        android:id="@+id/gumb1b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"/>
+    <Button
+        android:layout_weight="4"
+        android:background="@drawable/aboutlogo"
+        android:id="@+id/gumb1c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </LinearLayout>
+
+</RelativeLayout>
